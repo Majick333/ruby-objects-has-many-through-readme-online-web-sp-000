@@ -15,8 +15,11 @@ class Customer
     @@all
   end
 
-  def new_meal
-    @meal << self
+  def new_meal(waiter,total,tip)
+    @waiter = waiter
+    @total = total
+    @tip =tip
+    @@meals.self
 
   end
 
