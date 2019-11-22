@@ -4,7 +4,7 @@ class Customer
   @@all = []
   @@meals = []
 
-  def initialize(name,age,meal)
+  def initialize(name,age)
     @name = name
     @age = age
     #@meal = meal
