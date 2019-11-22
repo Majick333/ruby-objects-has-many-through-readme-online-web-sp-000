@@ -3,9 +3,9 @@ class Waiter
   @@all = []
 
 
-  def initialize(name, experience)
+  def initialize(name, yrs_experience)
     @name = name
-    @experience = experience
+    @yrs_experience = yrs_experience
     @@all << self
   end
 
@@ -13,8 +13,8 @@ class Waiter
     @@all
   end
 
-  def new_meal
-
+  def new_meal(customer,total, tip=0)
+    Meal.new(self, customer, total, tip)
   end
 
   def best_tipper(tip)
