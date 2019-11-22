@@ -15,8 +15,9 @@ class Customer
     @@all
   end
 
-  #def new_meal
+  def new_meal
+    @meal << self
 
-  #end
+  end
 
 end
