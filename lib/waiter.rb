@@ -10,6 +10,6 @@ class Waiter
 
 
 
-  
+
 
 end
