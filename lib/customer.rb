@@ -7,7 +7,7 @@ class Customer
   def initialize(name,age,meal)
     @name = name
     @age = age
-    @meal = meal
+    #@meal = meal
     @@all << self
   end
 
