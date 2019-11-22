@@ -13,8 +13,8 @@ class Waiter
     @@all
   end
 
-  def new_meal 
-    
+  def new_meal
+
   end
 
   def best_tipper(tip)
