@@ -1,5 +1,6 @@
 class Customer
   attr_accessor :name, :age
+  attr_reader :waiter
   @@all = []
   @@meals = []
 
@@ -14,6 +15,7 @@ class Customer
   end
 
   def new_meal
-    @meals <<
+    @meals << self
+  end
 
 end
